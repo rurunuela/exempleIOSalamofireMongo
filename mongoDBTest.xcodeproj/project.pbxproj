@@ -12,6 +12,7 @@
 		79564C8020F3BEB800C64550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79564C7E20F3BEB800C64550 /* Main.storyboard */; };
 		79564C8220F3BEB800C64550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79564C8120F3BEB800C64550 /* Assets.xcassets */; };
 		79564C8520F3BEB800C64550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79564C8320F3BEB800C64550 /* LaunchScreen.storyboard */; };
+		796260EB20F4035F0092241B /* information.plist in Resources */ = {isa = PBXBuildFile; fileRef = 796260EA20F4035F0092241B /* information.plist */; };
 		D98B5C4ED5632811CEB52283 /* Pods_mongoDBTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D60477421DD668EBC469F /* Pods_mongoDBTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		79564C8120F3BEB800C64550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79564C8420F3BEB800C64550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79564C8620F3BEB800C64550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796260EA20F4035F0092241B /* information.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = information.plist; sourceTree = "<group>"; };
 		874D60477421DD668EBC469F /* Pods_mongoDBTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mongoDBTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9904AC76886A8511A43C8508 /* Pods-mongoDBTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mongoDBTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mongoDBTest/Pods-mongoDBTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +54,7 @@
 		79564C6E20F3BEB800C64550 = {
 			isa = PBXGroup;
 			children = (
+				796260EA20F4035F0092241B /* information.plist */,
 				79564C7920F3BEB800C64550 /* mongoDBTest */,
 				79564C7820F3BEB800C64550 /* Products */,
 				19FE6A55ECB433453822B715 /* Pods */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79564C8520F3BEB800C64550 /* LaunchScreen.storyboard in Resources */,
+				796260EB20F4035F0092241B /* information.plist in Resources */,
 				79564C8220F3BEB800C64550 /* Assets.xcassets in Resources */,
 				79564C8020F3BEB800C64550 /* Main.storyboard in Resources */,
 			);

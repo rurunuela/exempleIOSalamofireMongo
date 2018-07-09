@@ -18,6 +18,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //INIT
+        if let path = Bundle.main.path(forResource: "information", ofType: "plist") {
+            let dictRoot = NSDictionary(contentsOfFile: path)
+            if let dict = dictRoot {
+                debugPrint(dict["MYKEY"] as! String)
+                self.mykey = dict["MYKEY"] as! String
+                
+            }
+            else {
+                 return()
+            }
+        }
+       
+        
         
         //GET database
         
